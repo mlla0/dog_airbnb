@@ -28,7 +28,7 @@ end
 
 20.times do |i|
 	r = 1 + rand(10)
-	Stroll.create(id: i + 1,dogsitter: Dogsitter.find(r), date: "2019/03/01", city: Dogsitter.find(r).city)
+	Stroll.create(id: i + 1,dogsitter: Dogsitter.find(r), date: Faker::Date.forward(365), city: Dogsitter.find(r).city)
 end
 
 100.times do |i|

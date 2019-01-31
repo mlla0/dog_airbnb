@@ -1,24 +1,7 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+First dogsitter of dog 47
+tp Dog.find(47).strolls.first.dogsitter
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+All the strolls from dogsitter 4
+tp Stroll.where(dogsitter: 4).all
