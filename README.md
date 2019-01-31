@@ -22,31 +22,29 @@ They are composed by the the following columns :
 
 **TABLE : dogsitters**
 * id,
-* first_name,
-* last_name,
-* zip_code,
-* city_id,
+* name,
+* email,
+* city_id
 
 **TABLE : dogs** 
 * id,
-* first_name,
-* last_name,
+* name,
+* race,
 * city_id
 
 **TABLE : cities** 
 * id,
-* doctor_id,
-* patient_id,
-* date,
-* city_id
+* name
 
 **TABLE : strolls** 
 * id,
-* name
+* dogsitter_id,
+* date
 
 **TABLE : stroll_dog_joins** 
 * id,
-* name
+* stroll_id,
+* dog_id
 
 ### example commands to display some informations
 
