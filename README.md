@@ -58,5 +58,6 @@ They are composed by the the following columns :
 
 * [1/3 freedoc](https://github.com/mlla0/freedoc "#")
 * [2/3 dog_airbnb](https://github.com/mlla0/dog_airbnb "#")
+* [3/3 gossip_project](https://github.com/avnd26/gossip_project "#")
 
 :kiss:
